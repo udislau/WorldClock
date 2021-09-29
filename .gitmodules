@@ -1,0 +1,3 @@
+[submodule "WorldClock/vendor/spdlog"]
+	path = WorldClock/vendor/spdlog
+	url = https://github.com/gabime/spdlog
