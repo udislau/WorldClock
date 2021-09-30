@@ -18,6 +18,9 @@ project "WorldClock"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "PreCompiledHeaders.h"
+	pchsource "WorldClock/src/PreCompiledHeaders.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

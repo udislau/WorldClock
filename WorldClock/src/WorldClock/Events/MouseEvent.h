@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace WorldClock {
 
 	class WORLDCLOCK_API MouseMovedEvent : public Event

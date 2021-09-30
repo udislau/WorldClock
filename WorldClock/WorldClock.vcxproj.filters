@@ -9,6 +9,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\PreCompiledHeaders.h" />
     <ClInclude Include="src\WorldClock.h" />
     <ClInclude Include="src\WorldClock\Application.h">
       <Filter>WorldClock</Filter>
@@ -36,6 +37,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\PreCompiledHeaders.cpp" />
     <ClCompile Include="src\WorldClock\Application.cpp">
       <Filter>WorldClock</Filter>
     </ClCompile>

@@ -1,3 +1,4 @@
+#include "PreCompiledHeaders.h"
 #include "Application.h"
 
 #include "WorldClock/Events/ApplicationEvent.h"

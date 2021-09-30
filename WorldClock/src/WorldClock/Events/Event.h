@@ -1,9 +1,8 @@
 #pragma once
 
+#include "PreCompiledHeaders.h"
 #include "WorldClock/Core.h"
 
-#include <string>
-#include <functional>
 
 namespace WorldClock {
 
