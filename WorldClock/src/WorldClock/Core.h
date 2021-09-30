@@ -9,3 +9,5 @@
 #else
 	#error WorldClock is not supported by this system!
 #endif
+
+#define BIT(x) (1 << x)

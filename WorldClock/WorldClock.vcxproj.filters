@@ -4,6 +4,9 @@
     <Filter Include="WorldClock">
       <UniqueIdentifier>{79055AB4-65BD-9B01-CEC4-745DBA9B36F2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="WorldClock\Events">
+      <UniqueIdentifier>{3DAFD5CA-A9C5-D360-F23C-5F825E92A4E8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\WorldClock.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\WorldClock\EntryPoint.h">
       <Filter>WorldClock</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WorldClock\Events\ApplicationEvent.h">
+      <Filter>WorldClock\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WorldClock\Events\Event.h">
+      <Filter>WorldClock\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WorldClock\Events\KeyEvent.h">
+      <Filter>WorldClock\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WorldClock\Events\MouseEvent.h">
+      <Filter>WorldClock\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\WorldClock\Log.h">
       <Filter>WorldClock</Filter>
